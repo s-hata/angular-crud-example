@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/materialize-css/dist/css/materialize.css";
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header, main, footer {
+  margin-top: 0px;
+  margin-left: 50px;
+  padding-top: 0px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
